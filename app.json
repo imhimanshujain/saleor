@@ -16,9 +16,11 @@
     "NPM_CONFIG_PRODUCTION": "false",
     "ALLOWED_HOSTS": {
       "description": "Comma-separated list of hosts",
-      "value": ".herokuapp.com"
+      "value": "*"
     },
     "DEFAULT_FROM_EMAIL": "noreply@example.com",
+    "DEFAULT_CURRENCY":"INR",
+    "DEFAULT_COUNTRY":"IN",
     "SECRET_KEY": {
       "description": "A secret key for verifying the integrity of signed cookies.",
       "generator": "secret"
